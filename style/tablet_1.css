@@ -1,0 +1,109 @@
+@media screen and (min-width: 780px) and (max-width: 960px) {
+    /* Header */
+    .header {
+        width: 100%;
+    }
+    /* reseau_soc */
+    .header_reseau-soc_item--selected {
+        margin-left: 64px;
+    }
+    /* nav */
+    .header_nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        padding-left: 30px;
+    }
+    .header_nav_logo{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .header_nav_logo--img {
+        margin-left: 40px;
+    }
+    .header_nav_ul{
+        margin-top: 0px;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .header_nav_item_link {
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-top: 0px;
+        /* padding-right: 10%; */
+    }
+    /*SECTION1*/
+    .diaporama{
+       height: 400px;
+
+    }
+    .section1{
+        width: 80%;
+        margin-left: 70px;
+        height:260px; 
+    }
+    .section1_container{
+        width: 100%;
+        height: 260px;
+    }
+    .section1_container_slider_figure_img{
+        width: 732px;
+        height: 260px;
+    }
+    @keyframes timeliner {
+        0%, 17%, 34%, 48%, 62%, 76%, 100%{ width: 0;}
+        12%, 29%, 43%, 57%,71%, 90%{ width: 732px; }
+    }
+    /*SECTION2*/
+    .section2_contain1{
+        margin-left:4%;
+        margin-right: 9%;
+    }
+    .section2_contain1_article{
+        width: 100%;
+    }
+    /*destination*/
+    .section2_destination{
+        margin-left: 4%;
+    }
+    .section2_destination_titre{
+        margin-right: 10%;
+    }
+    .section2_destination_contain2_figure{
+        width: 30%;
+        margin:0px 7px 5px 0px;
+    }
+    .section2_destination_contain2_figure_img{
+        width: 85%;
+    }
+    .section2_destination_commands_prev { 
+        left: 25px;
+        bottom: -51%;
+     }
+    .section2_destination_commands_next {
+         right: 20px; 
+         bottom: -52%;
+        }
+    /* SECTION3 */
+    .section3 {
+        padding-left: 6.9%;
+        padding-right: 9%;
+    }
+    .section3_item_block {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    .footer_nav {
+        margin-left:24px;
+        height: auto; 
+        padding-top: 10px;
+    }
+    .footer_copyright_p {
+        margin-left: 64px;
+
+    }
+}
+    
+    
